@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-workflow-config
+  namespace: default
+  labels:
+    app.kubernetes.io/name: test-workflow
+    kubernetes.azure.com/generator: devhub
+data:
